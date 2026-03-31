@@ -148,7 +148,6 @@ function CreateTrip() {
 
     if (!user) {
       setOpenDialog(true);
-
       return;
     }
 
