@@ -195,7 +195,7 @@ function CreateTrip() {
 
       const response = await result.response.text();
 
-      // console.log("AI Response:", response);
+      console.log("AI Response:", response);
 
       SaveAiTrip(response);
     } catch (err) {
